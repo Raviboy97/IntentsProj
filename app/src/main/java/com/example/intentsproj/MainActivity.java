@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 Context context = getApplicationContext();
                 CharSequence message = "You just clicked the OK button";
                 int duration = Toast.LENGTH_SHORT;
-                Toast toast = Toast.makeText(context, message, duration); toast.show();
-                toast.setGravity(Gravity.TOP| Gravity.LEFT, 0, 0);
+                Toast toast = Toast.makeText(context, message, duration);
+                toast.show();
 
                 int s = Integer.parseInt((etxt1.getText().toString()));
                 int s1 = Integer.parseInt((etxt2.getText().toString()));
